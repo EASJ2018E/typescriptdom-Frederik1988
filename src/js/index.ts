@@ -17,7 +17,12 @@ document.getElementById("one").setAttribute("class", "sundt")
 
 
 
-document.getElementsByClassName("sundt")[2].setAttribute("class","usundt")
+for (let i = 0; i < document.getElementsByClassName("sundt").length; i++){
+    document.getElementsByClassName("sundt")[1].setAttribute("class", "usundt")
+    
+}
+
+document.getElementById("four").hidden = true
 
 let nyNode = document.getElementById("two").parentNode.nodeName
 
@@ -35,9 +40,10 @@ newli.appendChild(newText)
 listeSund.appendChild(newli)
 
 let list = document.getElementById("liste")
-list.insertBefore(newli, list.childNodes[2])
+list.insertBefore(newli, list.childNodes[1])
 
 
-
-
-
+for (let i=0;i<=document.getElementsByClassName('usundt').length;i++) {
+    document.getElementById('listeUsund').appendChild(document.getElementsByClassName('usundt')[0]);
+    console.log(i)
+}
