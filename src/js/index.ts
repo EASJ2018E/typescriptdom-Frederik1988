@@ -1,12 +1,10 @@
-interface Person {
-    firstName: string;
-    lastName: string;
-}
+let findNode = document.getElementById("three")
+findNode.innerText = "Kiksekage"
 
-function greeter(person: Person): string {
-    return "Hello, " + person.firstName + " " + person.lastName;
-}
-let user: Person = { firstName: "John", lastName: "Doe" };
+let x = document.getElementsByClassName("usundt")
+console.log(x.length)
 
-let element: HTMLDivElement = <HTMLDivElement> document.getElementById("content");
-element.innerHTML = greeter(user);
+let x1 = document.getElementsByTagName("li")
+console.log(x1)
+
+let x2 
