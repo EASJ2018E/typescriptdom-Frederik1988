@@ -47,3 +47,9 @@ for (let i=0;i<=document.getElementsByClassName('usundt').length;i++) {
     document.getElementById('listeUsund').appendChild(document.getElementsByClassName('usundt')[0]);
     console.log(i)
 }
+
+let nyText = document.getElementById("two").textContent 
+document.getElementById("two").textContent = "Peanuts"
+
+let nyText2 = document.getElementById("three").textContent
+document.getElementById("three").textContent ="Bajer"
