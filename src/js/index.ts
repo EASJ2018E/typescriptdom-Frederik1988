@@ -53,3 +53,7 @@ document.getElementById("two").textContent = "Peanuts"
 
 let nyText2 = document.getElementById("three").textContent
 document.getElementById("three").textContent ="Bajer"
+
+let slet = document.getElementById("three")
+
+slet.parentNode.removeChild(slet)   
