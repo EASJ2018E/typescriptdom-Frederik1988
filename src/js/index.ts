@@ -27,3 +27,9 @@ console.log(nyNode1)
 let nyNode2 = document.getElementById("liste").lastElementChild.nodeName
 console.log(nyNode2)
 
+let listeSund = document.getElementById("liste")
+let newli = document.createElement("li")
+let newText = document.createTextNode("Salat")
+newli.setAttribute("class", "sundt")
+newli.appendChild(newText)
+listeSund.appendChild(newli)
