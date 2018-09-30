@@ -13,3 +13,8 @@ for (let i = 0; i < result.length; i++){
     console.log(bla)
 
 }
+document.getElementById("one").setAttribute("class", "sundt")
+
+document.getElementById("three").hidden = true
+
+document.getElementsByClassName("sundt")[1].setAttribute("class","usundt")
