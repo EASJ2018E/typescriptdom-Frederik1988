@@ -15,9 +15,9 @@ for (let i = 0; i < result.length; i++){
 }
 document.getElementById("one").setAttribute("class", "sundt")
 
-document.getElementById("three").hidden = true
 
-document.getElementsByClassName("sundt")[1].setAttribute("class","usundt")
+
+document.getElementsByClassName("sundt")[2].setAttribute("class","usundt")
 
 let nyNode = document.getElementById("two").parentNode.nodeName
 
@@ -33,3 +33,11 @@ let newText = document.createTextNode("Salat")
 newli.setAttribute("class", "sundt")
 newli.appendChild(newText)
 listeSund.appendChild(newli)
+
+let list = document.getElementById("liste")
+list.insertBefore(newli, list.childNodes[2])
+
+
+
+
+
