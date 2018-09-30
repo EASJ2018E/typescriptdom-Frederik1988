@@ -18,3 +18,12 @@ document.getElementById("one").setAttribute("class", "sundt")
 document.getElementById("three").hidden = true
 
 document.getElementsByClassName("sundt")[1].setAttribute("class","usundt")
+
+let nyNode = document.getElementById("two").parentNode.nodeName
+
+let nyNode1 = document.getElementById("liste").firstElementChild.nodeName
+console.log(nyNode1)
+
+let nyNode2 = document.getElementById("liste").lastElementChild.nodeName
+console.log(nyNode2)
+
